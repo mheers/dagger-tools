@@ -7,7 +7,7 @@ Also inlcudes most linux-crisis-tools tools mentioned on https://www.brendangreg
 ## Usage
 
 ```bash
-kubectl run --image mheers/dagger-tools:v0.14.0 host-dagger-tools --command sleep infinity
+kubectl run --image mheers/dagger-tools:v0.15.3 host-dagger-tools --command sleep infinity
 ```
 
 # Build

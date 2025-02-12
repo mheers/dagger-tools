@@ -23,9 +23,9 @@ import (
 type Ci struct{}
 
 const (
-	alpineImage      = "alpine:3.20"
+	alpineImage      = "alpine:3.21.2"
 	daggerImage      = "registry.dagger.io/engine"
-	daggerTag        = "v0.14.0"
+	daggerTag        = "v0.15.3"
 	daggerToolsImage = "mheers/dagger-tools"
 	username         = "mheers"
 )
