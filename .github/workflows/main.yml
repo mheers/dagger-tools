@@ -20,7 +20,7 @@ jobs:
       - name: Install Dagger CLI
         run: cd /usr/local && { curl -L https://dl.dagger.io/dagger/install.sh | sh; cd -; }
 
-      - name: Build OPA Demo Image
+      - name: Build Dagger Image
         working-directory: ci
         run: dagger call build-and-push-image --registry-token=env:REGISTRY_ACCESS_TOKEN
         env:

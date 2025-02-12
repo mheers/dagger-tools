@@ -23,7 +23,7 @@ import (
 type Ci struct{}
 
 const (
-	alpineImage      = "alpine:3.21.2"
+	alpineImage      = "alpine:3.20" // keep this until https://github.com/alpinelinux/docker-alpine/issues/93 is fixed
 	daggerImage      = "registry.dagger.io/engine"
 	daggerTag        = "v0.15.3"
 	daggerToolsImage = "mheers/dagger-tools"
